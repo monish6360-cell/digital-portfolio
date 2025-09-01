@@ -1,0 +1,109 @@
+/* --------------------
+
+   Responsive Design
+
+-------------------- */
+
+/* Mobile-first adjustments */
+
+body {
+
+  font-size: 16px;
+
+}
+
+header {
+
+  padding: 20px 10px;
+
+}
+
+header img {
+
+  width: 100px;
+
+  height: 100px;
+
+}
+
+nav {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 10px;
+
+}
+
+nav a {
+
+  display: inline-block;
+
+  margin: 5px;
+
+  font-size: 14px;
+
+}
+
+/* Tablet and larger screens */
+
+@media (min-width: 600px) {
+
+  body {
+
+    font-size: 18px;
+
+  }
+
+  nav a {
+
+    font-size: 16px;
+
+    margin: 0 15px;
+
+  }
+
+  header img {
+
+    width: 120px;
+
+    height: 120px;
+
+  }
+
+}
+
+/* Desktop and wide screens */
+
+@media (min-width: 900px) {
+
+  body {
+
+    font-size: 18px;
+
+  }
+
+  nav {
+
+    justify-content: space-around;
+
+  }
+
+  section {
+
+    margin: 30px auto;
+
+    padding: 30px;
+
+  }
+
+  nav a {
+
+    font-size: 18px;
+
+  }
+
+}
